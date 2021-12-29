@@ -3,28 +3,42 @@
  * @author Dong-yeong0
  */
 import java.io.*;
-
+import java.util.*;
 public class Main { // Main
 	public static void main(String[] args) throws IOException{
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
-		int arr[] = new int[9];
+		StringTokenizer sp;
+		int arr[];
+		int testCase = Integer.parseInt(input.readLine());
 
-		for(int i = 0; i<arr.length; i++){
-			arr[i] = Integer.parseInt(input.readLine());
-		}
-		input.close();
-		int max = 0;
-		int index = 0;
-		int cnt = 0;
-		for(int value : arr) {
-			cnt++;
-			if(max < value) {
-				max = value;
-				index = cnt;
+		for(int i = 0; i < testCase; i++) {
+			
+			sp = new StringTokenizer(input.readLine(), " ");
+			int students = Integer.parseInt(sp.nextToken());
+			arr = new int[students];
+
+			double sum = 0;
+
+			for(int j = 0; j < students; j++) {
+				int value = Integer.parseInt(sp.nextToken());
+				arr[j] = value;
+				sum += arr[j];
 			}
+
+			double eachAvg = (sum / students);
+			double count = 0;
+
+			for(int k = 0; k < students; k++) {
+				if(eachAvg < arr[k]) {
+					count++;
+				}
+			}
+
+			System.out.printf("%.3f%%\n", (count / students) * 100);
+
 		}
-		System.out.println(max);
-		System.out.println(index);
+
+
 	}
 }
