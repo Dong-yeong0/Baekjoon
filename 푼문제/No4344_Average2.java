@@ -1,4 +1,4 @@
-package Answer;
+package 푼문제;
 /**
  * No4344 평균은 넘겠지
  * 2021-12-29

@@ -1,4 +1,4 @@
-package Answer;
+package 푼문제;
 
 /**
  * No1546_Average

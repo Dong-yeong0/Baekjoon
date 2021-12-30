@@ -3,7 +3,7 @@
  * @author Dong-yeong0
  */
 
-package Answer;
+package 푼문제;
 import java.io.*;
 
 public class No2562_Maxvalue { // Main
