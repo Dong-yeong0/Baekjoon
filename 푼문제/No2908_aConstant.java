@@ -1,4 +1,4 @@
-package 풀지못한문제;
+package 푼문제;
 import java.io.*;
 import java.util.StringTokenizer;
 /**
