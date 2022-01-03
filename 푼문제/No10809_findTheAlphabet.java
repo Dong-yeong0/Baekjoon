@@ -1,12 +1,18 @@
+package 푼문제;
+
+import java.io.*;
+
+
+
 /**
- * for submission
+ * No10809_findTheAlphabet
+ * 2022-01-03
  * @author Dong-yeong0
  */
-import java.util.*;
-import java.io.*;
-public class Main { // Main
-	public static void main(String[] args) throws IOException{
-		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+public class No10809_findTheAlphabet {
+
+    public static void main(String[] args) throws IOException{
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         // 알파벳 a ~ z 배열
         int arr[] = new int[26];
         // 배열 -1로 초기화
@@ -26,5 +32,6 @@ public class Main { // Main
         for(int value : arr) {
             System.out.println(value);
         }
-	}
+
+    }
 }

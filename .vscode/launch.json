@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch No1152_countOfWord",
+            "request": "launch",
+            "mainClass": "풀지못한문제.No1152_countOfWord",
+            "projectName": "Baekjoon_d7ad40dc"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
