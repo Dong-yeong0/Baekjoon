@@ -1,4 +1,3 @@
-package 풀지못한문제;
 import java.io.*;
 /**
  * No2775_femalePresident

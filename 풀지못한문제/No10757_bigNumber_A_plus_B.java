@@ -1,14 +1,13 @@
-package 풀지못한문제;
 import java.io.*;
 import java.util.*;
 import java.math.BigInteger;
 /**
- * No10757_bigNumber_A_plus_B.java
+ * No10757_bigNumber_A_plus_B
  * 2022-01-06
  * @author Dong-yeong0
  */
 
-public class No10757_bigNumber_A_plus_B.java {
+public class No10757_bigNumber_A_plus_B {
     public static void main(String[] args) throws IOException {
 		
 		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
