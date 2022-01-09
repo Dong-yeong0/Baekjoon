@@ -1,3 +1,5 @@
+package 풀지못한문제;
+
 import java.io.*;
 import java.util.*;
 import java.math.BigInteger;
