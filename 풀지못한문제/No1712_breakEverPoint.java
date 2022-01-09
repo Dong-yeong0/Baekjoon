@@ -1,4 +1,3 @@
-package 풀지못한문제;
 import java.io.*;
 import java.util.*;
 /**
@@ -12,7 +11,7 @@ public class No1712_breakEverPoint {
       BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
       StringTokenizer st = new StringTokenizer(br.readLine());
-
+      
       int A = Integer.parseInt(st.nextToken());
       int B = Integer.parseInt(st.nextToken());
       int C = Integer.parseInt(st.nextToken());
